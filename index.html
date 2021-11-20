@@ -4,16 +4,17 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="normalize.css" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./styles/normalize.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
     <title>CV Aver Alex</title>
   </head>
+  <header class="header">
+    <h1 class="header__name">LIM</h1>
+    <p class="header__prof">FRONT-END DEVELOPER</p>
+  </header>
   <body>
     <div class="page">
-      <header class="header">
-        <h1 class="header__name">LIM</h1>
-        <p class="header__prof">FRONT-END DEVELOPER</p>
-      </header>
+      <img class="sakura" src="./images/sakura.png" alt="Branch of sakura tree">
       <section class="projects">
         <h2 class="projects__title">My Projects</h2>
         <div class="projects__cards">
@@ -27,8 +28,22 @@
             </h2>
             <iframe
               class="project__pulse"
-              src="./video-pulse.gif"
+              src="./images/video-pulse.gif"
               frameborder="0"
+            ></iframe>
+          </div>
+          <div class="card">
+            <h2 class="card__title">
+              <a
+                class="card__link"
+                href="https://github.com/sweetsummergone/vue-minesweeper"
+                >Minesweeper (Vue)
+              </a>
+            </h2>
+            <img
+              class="project__minesweeper"
+              src="./images/minesweeper.png"
+              alt="Demonstration of minefield size 10x10"
             ></iframe>
           </div>
         </div>
