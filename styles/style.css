@@ -29,6 +29,10 @@
     min-width: 420px;
     min-height: 230px;
   }
+  .project__minesweeper {
+    width: 370px;
+    height: 230px;
+  }
 }
 @media (max-width: 499px) {
   .sakura {
@@ -36,8 +40,12 @@
     max-height: 100vh;
   }
   .project__pulse {
-    min-width: 320px;
-    min-height: 130px;
+    width: 90vw;
+    height: 90vh;
+  }
+  .project__minesweeper {
+    max-width: 90vw;
+    max-height: 90vh;
   }
 }
 
@@ -125,13 +133,8 @@
   opacity: 0.5;
 }
 
-.project__pulse {
-}
-
 .project__minesweeper {
   transition: all 0.2s ease-in-out;
-  width: 370px;
-  height: 230px;
 }
 
 .project__minesweeper:hover {
