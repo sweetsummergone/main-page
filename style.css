@@ -3,63 +3,22 @@
   src: url("./Mova.ttf") format("truetype");
 }
 
-@font-face {
-  font-family: BB;
-  src: url("./bb.ttf") format("truetype");
-}
-
-@keyframes blink {
-  78% {
-    color: inherit;
-    text-shadow: inherit;
-  }
-  79.999% {
-    color: #333;
-  }
-  80% {
-    text-shadow: none;
-  }
-  81.111% {
-    color: inherit;
-    text-shadow: inherit;
-  }
-  82% {
-    color: #333;
-    text-shadow: none;
-  }
-  83.333% {
-    color: inherit;
-    text-shadow: inherit;
-  }
-  92% {
-    color: #333;
-    text-shadow: none;
-  }
-  92.555% {
-    color: inherit;
-    text-shadow: inherit;
-  }
-}
-
 .page {
   position: absolute;
-  background-image: url("./background.jpg");
   background-size: cover;
-  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
   margin: 0;
-  font-family: "BB";
+  font-family: "Mova";
   background-color: #0d1323;
   color: white;
   height: 100%;
   width: 100%;
 }
 
-.page {
-  display: flex;
-  flex-direction: column;
-}
-
 .header {
+  margin: 0 auto;
+  text-align: center;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -68,8 +27,7 @@
 
 .header__name {
   font-size: 78px;
-  color: red;
-  text-shadow: 0 0 80px red, 0 0 30px FireBrick, 0 0 6px DarkRed;
+  text-shadow: 0 0 80px aliceblue, 0 0 30px antiquewhite, 0 0 6px antiquewhite;
   margin: 0;
 }
 
@@ -80,8 +38,7 @@
 .header__prof {
   margin: 0;
   font-size: 35px;
-  color: lightgreen;
-  text-shadow: 0 0 80px green, 0 0 30px lightgreen, 0 0 6px lightgreen;
+  text-shadow: 0 0 80vw aliceblue, 0 0 30px antiquewhite, 0 0 6px antiquewhite;
 }
 
 .projects {
@@ -90,6 +47,29 @@
 }
 
 .projects__title {
-  margin: 0 auto;
   text-align: center;
+}
+
+.projects__cards {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card {
+  max-width: 374px;
+  max-height: 204px;
+}
+
+.card__title {
+  text-align: center;
+}
+
+.card__link {
+  text-decoration: none;
+  color: antiquewhite;
+}
+
+.project__pulse {
+  min-width: 420px;
+  min-height: 230px;
 }
