@@ -25,6 +25,39 @@
   }
 }
 
+@keyframes falling {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0) rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: translate3d(35vh, 70vh, 0) rotate(90deg);
+    opacity: 0;
+  }
+}
+
+@keyframes falling3 {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0) rotate(-20deg);
+  }
+
+  100% {
+    -webkit-transform: translate3d(23vh, 64vh, 0) rotate(-70deg);
+    opacity: 0;
+  }
+}
+
+@keyframes falling2 {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0) rotate(90deg);
+  }
+
+  100% {
+    -webkit-transform: translate3d(50vw, 68vw, 0) rotate(0deg);
+    opacity: 0;
+  }
+}
+
 .page {
   background-size: cover;
   display: flex;
@@ -50,11 +83,39 @@
   animation: winding 7s ease-in-out infinite;
 }
 
+.petal {
+  position: absolute;
+  top: 10vh;
+  left: 30vw;
+  z-index: -1;
+  width: 2vw;
+  height: 2vh;
+}
+
+.petal__one {
+  animation: falling2 5s 0s infinite;
+}
+
+.petal__two {
+  animation: falling 7s 0s infinite;
+}
+
+.petal__three {
+  animation: falling3 6s 0s infinite;
+}
+
+.petal__four {
+  animation: falling2 4s 0s infinite;
+}
+
 .header {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
   text-align: center;
   display: flex;
   flex-direction: column;
-  margin: 40vh 0 30vh 0;
+  margin: 40vh auto 30vh auto;
 }
 
 .header__name {
