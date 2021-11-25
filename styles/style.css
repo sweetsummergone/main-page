@@ -42,7 +42,7 @@
   }
 
   100% {
-    -webkit-transform: translate3d(23vh, 64vh, 0) rotate(-70deg);
+    -webkit-transform: translate3d(23vw, 64vh, 0) rotate(-70deg);
     opacity: 0;
   }
 }
@@ -53,7 +53,7 @@
   }
 
   100% {
-    -webkit-transform: translate3d(50vw, 68vw, 0) rotate(0deg);
+    -webkit-transform: translate3d(50vw, 40vh, 0) rotate(0deg);
     opacity: 0;
   }
 }
@@ -65,8 +65,8 @@
   margin: 0 auto;
   font-family: "DS";
   color: black;
-  height: 100%;
-  width: 100%;
+  max-width: 1128px;
+  height: auto;
 
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
@@ -142,6 +142,15 @@
 
 .contact__linkedin {
   margin-left: 5px;
+}
+
+@media (min-width: 768px) {
+  .header__name {
+    font-size: 10rem;
+  }
+  .header__prof {
+    font-size: 3rem;
+  }
 }
 
 @media (min-width: 500px) {
