@@ -1,0 +1,35 @@
+.content {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 40vh auto 10vh auto;
+}
+
+.content__name {
+    color: black;
+    font-family: BS;
+    font-size: 78px;
+    text-shadow: 0 0 80px aliceblue, 0 0 30px antiquewhite, 0 0 6px antiquewhite;
+    margin: 0;
+  }
+  
+.content__prof {
+    font-family: DS;
+    color: brown;
+    margin: 0;
+    font-size: 35px;
+    text-shadow: 0 0 80vw aliceblue, 0 0 30px antiquewhite, 0 0 6px antiquewhite;
+  }
+  
+
+  @media (min-width: 768px) {
+    .content__name {
+      font-size: 10rem;
+    }
+    .content__prof {
+      font-size: 3rem;
+    }
+  }
