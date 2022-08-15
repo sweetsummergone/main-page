@@ -8,14 +8,14 @@ export default function Sakura() {
   return (
     <div class='tree'>
         <img
-            class='sakura'
+            className='sakura'
             src={sakura}
             alt='Branch of sakura tree'
         />
-        <img class='petal petal__one' src={petal_1} alt='' />
-        <img class='petal petal__two' src={petal_2} alt='' />
-        <img class='petal petal__three' src={petal_3} alt='' />
-        <img class='petal petal__four' src={petal_4} alt='' />
+        <img className='petal petal__one' src={petal_1} alt='' />
+        <img className='petal petal__two' src={petal_2} alt='' />
+        <img className='petal petal__three' src={petal_3} alt='' />
+        <img className='petal petal__four' src={petal_4} alt='' />
     </div>
   );
 }

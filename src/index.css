@@ -5,4 +5,6 @@
 @import url('./components/Sakura/Sakura.css');
 @import url('./components/Header/Header.css');
 @import url('./components/Content/Content.css');
+@import url('./components/Projects/Projects.css');
+@import url('./components/Projects/Project/Project.css');
 @import url('./components/Footer/Footer.css');

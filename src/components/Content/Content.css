@@ -1,6 +1,6 @@
 .content {
     width: 100%;
-    max-width: 500px;
+    max-width: 80vw;
     height: auto;
     text-align: center;
     display: flex;
@@ -31,5 +31,11 @@
     }
     .content__prof {
       font-size: 3rem;
+    }
+  }
+
+  @media screen and (max-width: 1024px) {
+    .content {
+      max-width: 70vw;
     }
   }
