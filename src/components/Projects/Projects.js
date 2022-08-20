@@ -1,19 +1,17 @@
-import project1 from "../../images/project1.gif";
-import project2 from "../../images/project2.gif";
 import Project from "./Project/Project";
 
 export default function Projects() {
   return (
     <div className='content'>
       <Project
-        gif={project2}
+        src="https://media.giphy.com/media/cifXF9Zq82EH9RFqwx/giphy.gif"
         alt='Animated News Search-And-Save project presentation'
         header='NewsExplorer'
         link='https://coolnews.students.nomoredomainssbs.ru/'
         desc='News application with completed authorization system realised with using MongoDB and Express Router. Hosting and supporting by Microsoft Azure VMs.'
       />
       <Project
-        gif={project1}
+        src="https://media.giphy.com/media/65F22SU9jLySrEgCrv/giphy.gif"
         alt='Animated Around U.S. presentation'
         header='Around U.S.'
         link='https://arounduswithus.students.nomoreparties.sbs/'
