@@ -13,7 +13,7 @@ export default function App() {
             <Header />
             <Routes>
                 <Route
-                    path="/"
+                    path="/main-page"
                     element={<Content />}
                 />
                 <Route
