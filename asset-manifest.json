@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/main-page/static/css/main.5712d2a4.css",
-    "main.js": "/main-page/static/js/main.429253f1.js",
+    "main.js": "/main-page/static/js/main.10798255.js",
     "static/js/787.65b15584.chunk.js": "/main-page/static/js/787.65b15584.chunk.js",
     "static/media/sakura.png": "/main-page/static/media/sakura.300e692bcac5fe904c77.png",
     "static/media/Onigashima.ttf": "/main-page/static/media/Onigashima.962d98ee0418041aa504.ttf",
@@ -10,11 +10,11 @@
     "static/media/petal3.png": "/main-page/static/media/petal3.215d0de0bb3303417802.png",
     "index.html": "/main-page/index.html",
     "main.5712d2a4.css.map": "/main-page/static/css/main.5712d2a4.css.map",
-    "main.429253f1.js.map": "/main-page/static/js/main.429253f1.js.map",
+    "main.10798255.js.map": "/main-page/static/js/main.10798255.js.map",
     "787.65b15584.chunk.js.map": "/main-page/static/js/787.65b15584.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5712d2a4.css",
-    "static/js/main.429253f1.js"
+    "static/js/main.10798255.js"
   ]
 }
