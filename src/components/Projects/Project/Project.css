@@ -26,8 +26,8 @@
 .project__title {
     margin: 0;
     text-align: left;
-    color: crimson;
-    font-family: BS;
+    color: #D66D6B;
+    font-family: Onigashima, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 48px;
     text-shadow: 0 0 80px aliceblue, 0 0 30px antiquewhite, 0 0 6px antiquewhite;
     grid-area: title;
@@ -72,7 +72,9 @@
     }
 
     .project__gif {
+        object-fit: contain;
         width: 70vw;
+        height: auto;
         order: 2;
     }
 

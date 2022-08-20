@@ -1,7 +1,26 @@
 .header {
+    position: relative;
+    z-index: 3;
     display: flex;
     column-gap: 10px;
     margin-left: auto;
     margin-right: 5vw;
     margin-top: 10px;
+}
+
+.header__link {
+    font-family: Onigashima, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    color: #D66D6B;
+    font-size: 36px;
+    margin-right: 10px;
+    border-bottom: 2px solid brown;
+}
+
+@media screen and (max-width: 500px) {
+    .header {
+        flex-direction: column;
+        padding: 0;
+        margin-right: 0;
+    }
 }
